@@ -1,0 +1,17 @@
+debug/qrc_qss.o
+debug/qrc_static.o
+debug/qaesencryption.o
+debug/choosefile.o
+debug/config_ini.o
+debug/filehandle.o
+debug/main.o
+debug/mainwindow.o
+debug/page_login.o
+debug/wmrgsql.o
+debug/moc_qaesencryption.o
+debug/moc_choosefile.o
+debug/moc_config_ini.o
+debug/moc_filehandle.o
+debug/moc_mainwindow.o
+debug/moc_page_login.o
+debug/moc_wmrgsql.o

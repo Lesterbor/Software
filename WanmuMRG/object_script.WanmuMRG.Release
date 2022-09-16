@@ -1,0 +1,17 @@
+release/qrc_qss.o
+release/qrc_static.o
+release/qaesencryption.o
+release/choosefile.o
+release/config_ini.o
+release/filehandle.o
+release/main.o
+release/mainwindow.o
+release/page_login.o
+release/wmrgsql.o
+release/moc_qaesencryption.o
+release/moc_choosefile.o
+release/moc_config_ini.o
+release/moc_filehandle.o
+release/moc_mainwindow.o
+release/moc_page_login.o
+release/moc_wmrgsql.o

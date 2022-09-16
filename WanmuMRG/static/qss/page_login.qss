@@ -1,0 +1,241 @@
+QMainWindow#MainWindow{
+    background-color: #f1f1f1;
+}
+
+QLabel#loginIco{
+    border-image: url(:/static/image/loginIcon.png);
+}
+QLabel#lab_emailIco{
+    border-image: url(:/static/image/email.png);
+}
+QLabel#lab_passIco{
+    border-image: url(:/static/image/pass.png);
+}
+
+QLabel#lab_rename{
+    border-image: url(:/static/image/name.png);
+}
+QLabel#lab_reemail{
+    border-image: url(:/static/image/email.png);
+}
+QLabel#lab_repass{
+    border-image: url(:/static/image/pass.png);
+}
+
+
+QWidget#wid_passBlock,QWidget#wid_emailBlock,QWidget#wid_rename,QWidget#wid_repass,QWidget#wid_reemail {
+    height:20px;
+    border: 1px solid #c0c4cc;
+    border-radius: 5px;
+    padding-left:5px;
+    padding-right:5px;
+    background-color:rgb(255,255,255);
+}
+
+QLineEdit{
+    border:none;
+    padding-left: 5px;
+}
+
+QPushButton#exitBtn,QPushButton#exitBtn_2{
+    background-color:rgb(141,198,63);
+}
+
+QPushButton#exitBtn:hover,QPushButton#exitBtn_2:hover{
+    background-color:rgb(171,185,64);
+}
+
+QPushButton#exitBtn:pressed,QPushButton#exitBtn_2:pressed{
+    background-color:rgb(141,183,47);
+}
+
+
+QLabel#lab_modal,QLabel#lab_modal2{
+    color:rgb(225,225,225);
+}
+
+
+QTabWidget::pane{
+
+}
+
+QTabWidget::tab-bar{
+    border:none;
+    width:450px;
+}
+
+QTabBar::tab {
+    height:30px;
+    color:black;
+    background-color:rgb(240,240,240);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border:none;
+ }
+
+QTabBar::tab:selected{
+    color:white;
+    background-color:rgba(0,0,0,0.7);
+    border:none;
+}
+
+#Tab_logIn{
+    background-color:rgba(0,0,0,0.7);
+    border:none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#Tab_register{
+    background-color:rgba(0,0,0,0.7);
+    border:none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+/*主界面样式*/
+QListWidget{
+    color:black;
+    border:none;
+    outline:0px;
+}
+
+QWidget#Wig_head{
+    border-bottom:1px solid rgb(107,105,214);
+}
+
+/*上传按钮样式*/
+QPushButton#Btn_upLoad{
+    color:white;
+    background-color:rgb(14,150,254);
+    border-radius:5px;
+    height:30px;
+    width:100px;
+}
+
+QPushButton#Btn_upLoad:hover{
+    background-color:rgb(44,137,255);
+}
+
+QPushButton#Btn_upLoad:pressed{
+    background-color:rgb(14,135,228);
+    padding-left:3px;
+    padding-top:3px;
+}
+
+/*左侧文件Lits样式*/
+QListWidget::item{
+    height:20px;
+}
+
+QListWidget::item:hover{
+    show-decoration-selected:5;
+    background:skyblue;
+    border-right:3px solid rgb(107,105,214);
+}
+
+QListWidget::item:selected{
+
+    background:skyblue;
+    color:white;
+    border-right:3px solid rgb(107,105,214);
+}
+
+QListWidget::item:selected:!active{
+    background:skyblue;
+    border-right:3px solid rgb(107,105,214);
+}
+
+
+/*文件上传页面美化*/
+
+QTableWidget{
+    color:green;
+    background:white;
+    selection-color:red;
+    selection-background-color:lightgray;
+    border:none;
+}
+
+/*设置表头属性*/
+QTableWidget QHeaderView::section{
+    background-color:#F0F0F0;
+    border:none;
+}
+
+/*选择文件样式*/
+QPushButton{
+    color:white;
+    border-radius:5px;
+    height:30px;
+    width:100px;
+    background-color:rgb(14,150,254);
+}
+
+QPushButton::hover{
+    background-color:rgb(44,137,255);
+}
+
+QPushButton::pressed{
+    padding-left:3px;
+    padding-top:3px;
+    background-color:rgb(14,135,228);
+}
+
+
+QPushButton#btn_choose{
+    background-color:rgb(14,150,254);
+}
+
+QPushButton#btn_choose:hover{
+    background-color:rgb(44,137,255);
+}
+
+QPushButton#btn_choose:pressed{
+    background-color:rgb(14,135,228);
+}
+
+
+/*----------------*/
+QPushButton#btn_ok{
+    background-color:rgb(229,77,66);
+}
+
+QPushButton#btn_ok:hover{
+    background-color:rgb(255,64,67);
+}
+
+QPushButton#btn_ok:pressed{
+    background-color:rgb(229,62,40);
+}
+
+
+/*----------------*/
+QPushButton#btn_clear{
+    background-color:rgb(57,181,74);
+}
+
+QPushButton#btn_clear:hover{
+    background-color:rgb(87,168,75);
+}
+
+QPushButton#btn_clear:pressed{
+    background-color:rgb(57,166,58);
+}
+
+
+
+/*----------------*/
+QPushButton#btn_cancle{
+    background-color:rgb(135,153,163);
+}
+
+QPushButton#btn_cancle:hover{
+    background-color:rgb(165,140,164);
+}
+
+QPushButton#btn_cancle:pressed{
+    background-color:rgb(135,138,137);
+}
+
+

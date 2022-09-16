@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chooseFile</class>
+ <widget class="QWidget" name="chooseFile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>万沐千樊图集管理 | 上传图片</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="static.qrc">
+    <normaloff>:/static/image/icon.png</normaloff>:/static/image/icon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="1" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>40</height>
+      </size>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="btn_cancle">
+        <property name="text">
+         <string>取消</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QPushButton" name="btn_ok">
+        <property name="text">
+         <string>确认加密</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="btn_choose">
+        <property name="text">
+         <string>选择图片</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="4">
+       <widget class="QPushButton" name="btn_clear">
+        <property name="text">
+         <string>清除表格</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget_2" native="true">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QTableWidget" name="Wig_FileList">
+        <property name="minimumSize">
+         <size>
+          <width>643</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>643</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="Lab_ImgView">
+        <property name="minimumSize">
+         <size>
+          <width>328</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>328</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>无预览图片</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="static.qrc"/>
+ </resources>
+ <connections/>
+</ui>
